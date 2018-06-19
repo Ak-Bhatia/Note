@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Download</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+  <!--Navigation Bar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <a class="navbar-brand" href="#">CodeHelper</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="Home.html">Home</a>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Materials
+        </a>
+        <div class="dropdown-menu" style="margin-top:-2px;" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item active" href="Notes.html">Notes</a>
+          <a class="dropdown-item" href="#">Previous Papers</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="UploadingPage.html">Upload</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blog</a>
+      </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Sign in
+        </a>
+    <form class="dropdown-menu p-4" style="margin-top: 7px;">
+      <div class="form-group">
+        <label for="exampleDropdownFormEmail2">Email address</label>
+        <input type="email" class="form-control" id="exampleDropdownFormEmail2" placeholder="email@example.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleDropdownFormPassword2">Password</label>
+        <input type="password" class="form-control" id="exampleDropdownFormPassword2" placeholder="Password">
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+        <label class="form-check-label" for="dropdownCheck2">
+          Remember me
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary btn-sm mt-2">Log in</button>
+      <a class="dropdown-item bg-warning mt-2 btn-sm mt-2" href="#">Forgot password?</a>
+       <div class="dropdown-divider"></div>
+  </form>
+     </li>
+       <li class="nav-item dropdown">
+           <button type="button" class="btn btn-outline-warning ml-2 btn-sm mt-1" data-toggle='modal' data-target='#popupWindow'>Sign Up</button>
+     </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search Code</button>
+    </form>
+  </div>
+</nav>
+
+
+<div class="modal fade" id="popupWindow" >
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content bg-light">
+
+      <div class="modal-header">
+          <h4 class="modal-title text-left ml-4">Sign Up</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <div class="modal-body p-4">
+        <div class="container form-group">
+        <form role="form">
+            <p><input type="text" class="form-control" id="psw" placeholder="Name"></p>
+            <p><input type="text" class="form-control" id="psw" placeholder="Class"></p>
+            <p><input type="text" class="form-control" id="psw" placeholder="Roll No."></p>
+            <p><input type="text" class="form-control" id="psw" placeholder="Department"></p>
+            <p><input type="email" class="form-control" id="usrname" placeholder="Enter email"></p>
+            <p><input type="password" class="form-control" id="psw" placeholder="Enter password"></p>
+            <p><input type="password" class="form-control" id="psw" placeholder="Confirm Password"></p>
+            </form>
+        </div>
+
+            <a href="blog.html"><button type="submit" class="btn btn-success ml-3 btn-lg"><span class="glyphicon glyphicon-off"></span> Sign Up</button></a>
+        </form>
+      </div>
+
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+  <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="Home.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Materials</a></li>
+    <li class="breadcrumb-item"><a href="Notes.html">Notes</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Download</li>
+  </ol>
+</nav>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-9">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="images/notes.jpg" class="rounded mx-auto d-block img-thumbnail" alt="...">
+          </div>
+          <div class="col-sm-4">
+            <img src="images/notes.jpg" class="rounded mx-auto d-block img-thumbnail" alt="...">
+          </div>
+          <div class="col-sm-4">
+            <img src="images/notes.jpg" class="rounded mx-auto d-block img-thumbnail" alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="container mt-4 mb-3 text-center">
+          <button class="btn btn-success">Purchase</button>
+          <button class="btn btn-outline-info" id="testing" onclick="func()">Download Pdf</button>
+          <button class="btn btn-danger" disabled="disable">Share</button>
+      </div>
+    </div>
+    <div class="col-sm-2 rounded">
+			<div class="container jumbotron">
+      		Notes Details:
+       	 </div>
+         <hr>
+    </div>
+  </div>
+</div>
+<div class="jumbotron">
+  	<div class="container bg-light rounded py-4">
+  		<div class="row"">
+  			<div class="col-sm-4 mt-2 text-center">
+  				Store Name
+  			</div>
+  			<div class="col-sm-2 mt-2">
+  			</div>
+  			<div class="col-sm-3 mt-2 text-center">
+  				<select class="btn btn-info">
+  					<option>No. of copies</option>
+  					<option>1</option>
+  					<option>2</option>
+  					<option>3</option>
+  					<option>4</option>
+  					<option>5</option>
+  				</select>
+  			</div>
+  			<div class="col-sm-2 mt-2 btn btn-info">
+  				Purchase
+  			</div>
+  		</div>
+  	</div>
+</div>
+<div class="container-fluid>"
+	<div claas="row">
+		<div class="col-sm-3 text-primary">
+			Hello
+		</div>
+		<hr>
+	</div>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
+    
